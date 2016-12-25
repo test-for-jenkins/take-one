@@ -1,5 +1,4 @@
 let assert = require('assert')
 const add = require('./index')
 
-let four = add(4, 2)
-assert.equal(four, 6, 'is that equal?')
+assert.equal(add(3, 2), 6, 'is that equal?')
