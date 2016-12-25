@@ -1,6 +1,6 @@
 function add (a, b) {
   var result = a + b
-  return result
+  return result;
 }
 
 module.exports = add
