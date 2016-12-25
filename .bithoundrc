@@ -1,0 +1,6 @@
+"ignore": [
+  "test.js"
+],
+"critics": {
+  "lint": {"engine": "standard"}
+}
