@@ -1,6 +1,6 @@
-"ignore": [
+"test": [
   "test.js"
 ],
 "critics": {
-  "lint": {"engine": "semistandard"}
+  "lint": {"engine": ["standard", "semistandard"]}
 }
