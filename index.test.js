@@ -1,2 +1,5 @@
 let assert = require('assert')
-assert.equal(1, 1, '1 == 1?')
+const add = require('./index')
+
+let three = add(1, 2)
+assert.equal(three, 4, 'is that equal?')
